@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create An Account</title>
+</head>
+<body>
+    <form>
+        <table border="0">
+            <tr>
+                <td>
+                    <label>full name:</label>
+                </td>
+                <td>
+                    <input type="text" maxlength="20"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>password:</label>
+                </td>
+                <td>
+                    <input type="password"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>date of birth:</label>
+                </td>
+                <td>
+                    <input type="date"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>gender:</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender"/>M <br> 
+                    <input type="radio" name="gender"/>F 
+                    <!--name="gender" должен быть одинаковым-->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>e-mail:</label>
+                </td>
+                <td><input required type="email"/></td>
+            </tr>
+            <tr>
+                <td><label>reason:</label></td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input required type="checkbox"/> I agree with all <a href="agreement.html" target="_blank">terms and agreements</a></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><button type="submit">Accept</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
